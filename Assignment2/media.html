@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Media Elements</title>
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+
+    <main>
+
+
+        <section>
+            <h2>Hi! I'm Grace Oluwasegun.</h2>
+            <picture>
+                <source srcset="./assets/images/DSC_2063.jpg" media="(min-width:996px)">
+                <source srcset="./assets/images/IMG_2053.jpg" media="(min-width:569px)">
+                <img src="./assets/images/Grace.jpg" height="400px" width="400px" alt="Grace Oluwasegun">
+            </picture>
+        </section>
+
+        <section id="audio">
+            <p>You can enjoy my favorite song</p>
+            <audio controls>
+                <source src="./assets/music/Kabiyesi.mp3">
+                Your browser does not support the audio
+            </audio>
+        </section>
+
+        <section id="video">
+            <p>and my favorite video</p>
+            <video controls muted width="560" height="315">
+                <source src="./assets/video/over-and-over.mp4">
+                Your browser does not support the video
+            </video>
+        </section>
+
+        <p>
+            If you want to hear me speak, click on the video below.
+        </p>
+        <section id="iframe">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-Vqq71BekRA?si=Nt3yHdiNbuEk53Ow"
+                title="Grace talking about her Law School experience" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        
+        <section>
+            <p>That's all for now! Bye!</p>
+            <embed type="video/mp4"
+                src="https://giphy.com/embed/FIIWUqAMjD6PzWaUJE"
+                width="560" height="315" Title="Bye" />
+               
+        </section>
+
+
+    </main>
+
+</body>
+
+</html>

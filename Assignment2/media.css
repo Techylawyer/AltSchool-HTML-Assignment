@@ -1,0 +1,24 @@
+:root {
+  --very-dark-blue: #113f67;
+  --dark-blue: #38598b;
+  --light-purple: #a2a8d3;
+  --gray: #e7eaf6;
+}
+
+body {
+  background-color: var(--gray);
+}
+
+main {
+  max-width: 650px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 1.2em;
+}
+
