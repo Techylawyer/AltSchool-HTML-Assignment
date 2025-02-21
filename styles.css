@@ -5,6 +5,7 @@
   --color1: #7a2048;
   --color2: #408ec6;
   --color3: #1e2761;
+  --pink: #b48a9d;
 }
 
 body {
@@ -48,11 +49,11 @@ a {
 
 button {
   margin: 0 auto;
-  background-color: #b48a9d;
+  background-color: var(--pink);
   width: 250px;
   margin: 20px;
   padding: 20px;
-  border-color: #b48a9d;
+  border-color: var(--pink);
   cursor: pointer;
   font-size: 1em;
 }
